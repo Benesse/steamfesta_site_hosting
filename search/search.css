@@ -1,0 +1,8 @@
+body.search-page { background: #fff; }
+main.container { max-width: 860px; margin: 40px auto; padding: 0 16px; }
+#search-form { display: flex; gap: 8px; margin-bottom: 16px; }
+#search-form input { flex: 1; padding: 8px; }
+#search-results { list-style: none; padding: 0; }
+#search-results li { margin: 0 0 16px 0; }
+#search-results a { font-weight: 600; }
+#search-results p { margin: 4px 0 0 0; }
