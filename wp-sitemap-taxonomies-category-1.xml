@@ -1,3 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://steamfesta.benesse.co.jp/wp-sitemap.xsl" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://steamfesta.benesse.co.jp/category/uncategorized/</loc></url><url><loc>https://steamfesta.benesse.co.jp/category/academic/</loc></url><url><loc>https://steamfesta.benesse.co.jp/category/socialinovation/</loc></url><url><loc>https://steamfesta.benesse.co.jp/category/maker/</loc></url><url><loc>https://steamfesta.benesse.co.jp/category/%e3%83%97%e3%83%ac%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc/</loc></url></urlset>
+<?xml-stylesheet type="text/xsl" href="/steamfesta_site_hosting/wp-sitemap.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>/category/uncategorized/</loc></url><url><loc>/category/academic/</loc></url><url><loc>/category/socialinovation/</loc></url><url><loc>/category/maker/</loc></url><url><loc>/category/%e3%83%97%e3%83%ac%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%93%e3%83%a5%e3%83%bc/</loc></url></urlset>
