@@ -1,0 +1,31 @@
+# Claude Code
+.claude/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# WordPress - 個人情報・不要ファイル
+wp-sitemap-users-1.xml
+wp-json/
+xmlrpc.php
+xmlrpc__q_rsd.php
+
+# WordPress - 静的サイト不要ファイル
+wp-sitemap-posts-page-1.xml
+wp-sitemap-posts-post-1.xml
+wp-sitemap-taxonomies-category-1.xml
+wp-sitemap-taxonomies-post_tag-1.xml
+wp-includes/
+comments/
