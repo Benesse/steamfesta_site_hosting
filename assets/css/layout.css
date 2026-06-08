@@ -18,11 +18,14 @@
 .site-logo {
   display: inline-flex;
   align-items: center;
-  max-width: 240px;
+  width: 180px;
+  max-width: 42vw;
 }
 
 .site-logo img {
-  width: 220px;
+  width: 100%;
+  max-height: 42px;
+  object-fit: contain;
 }
 
 .nav-toggle {
@@ -153,7 +156,7 @@
   }
 
   .site-logo img {
-    width: 180px;
+    max-height: 36px;
   }
 
   .nav-toggle {
