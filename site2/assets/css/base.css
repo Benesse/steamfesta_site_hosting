@@ -1,0 +1,117 @@
+:root {
+  --color-primary: #05c1c0;
+  --color-primary-dark: #049a9a;
+  --color-accent: #9b51e0;
+  --color-yellow: #fdf63b;
+  --color-text: #263238;
+  --color-muted: #667085;
+  --color-border: #d8eef0;
+  --color-bg: #f7fbfb;
+  --color-white: #ffffff;
+  --shadow-soft: 0 12px 28px rgba(0, 83, 89, 0.12);
+  --radius: 8px;
+  --container: 1040px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--color-text);
+  background: var(--color-white);
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-primary-dark);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+a:hover {
+  color: #007f85;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.35;
+}
+
+ul {
+  padding-left: 1.35rem;
+}
+
+.container {
+  width: min(100% - 32px, var(--container));
+  margin: 0 auto;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  z-index: 1000;
+  padding: 8px 12px;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.highlight {
+  background: linear-gradient(transparent 62%, rgba(253, 246, 59, 0.85) 0%);
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+.muted {
+  color: var(--color-muted);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 22px;
+  color: var(--color-white);
+  background: var(--color-primary);
+  border-radius: var(--radius);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: var(--color-white);
+  background: var(--color-primary-dark);
+}

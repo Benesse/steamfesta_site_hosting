@@ -1,0 +1,31 @@
+.home-sections {
+  padding: 48px 0 72px;
+}
+
+.home-actions {
+  display: grid;
+  gap: 34px;
+}
+
+.supporter-message {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.supporter-profile {
+  text-align: center;
+}
+
+.supporter-profile img {
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 999px;
+}
+
+@media (max-width: 700px) {
+  .supporter-message {
+    grid-template-columns: 1fr;
+  }
+}
